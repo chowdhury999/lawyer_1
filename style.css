@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900|Open+Sans:400,600,700,800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+img{
+     max-width: 100%;
+    display: block;
+}
+.container{
+    width: 1060px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+header{
+     font-family: 'Montserrat', sans-serif;
+    padding: 28px 0;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{
+    color: #28377e;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo a h1{}
+.logo a h1:hover{}
+
+nav{
+     text-align: right;
+    width: 80%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #204f87;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul li a:hover{}
+.banner-section{
+     min-height: 700px;
+    background-image: url(../images/banner_sub_bg.png),url(../images/banner_bg.png);
+    background-size: contain,cover;
+    background-repeat: no-repeat,no-repeat;
+    background-position: left, center;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 50px;
+    max-width: 500px;
+}
+.click-down{
+    position: absolute;
+    bottom: 100px;
+    color: #fff;
+    font-size: 20px
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.who-we-are-section{
+     padding: 120px 0 200px;
+}
+.who-we-are-content{
+    width: 70%;
+    float: left;
+    padding-right: 150px;
+}
+.who-we-are-img {
+     width: 30%;
+    float: left;
+}
+.who-we-are-img img{}
+
+.heading{}
+.heading hr{}
+.heading span{
+    width: 60px; 
+    background: #f15628;
+    height: 5px;
+    display: block;
+}
+.heading h2{
+    font-size: 36px;
+    color: #204f87;
+    text-transform: uppercase; 
+    margin: 30px 0 ;
+}
+p{
+    color: #b0b0b1;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.What-We-Do-section{
+    background-repeat: no-repeat;
+    background-color: #f7f8f8;
+    background-image: url(../img/whatwedo_bg.png);
+    background-position: right bottom;
+    height: 851px;
+    padding: 80px 0 120px;
+}
+.what-we-do{
+    width: 33.33%;
+    float:left;
+}
+.what-we-do-content{
+     width: 60px;
+    background: #f15628;
+    height: 5px;
+    margin: 0 47%;
+    display: block;
+}
+.what-we-do-content img{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.what-we-do-content h3{
+    margin-bottom: 88px;
+}
+.what-we-do-content a{
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.our_attornyes{
+    background-image: url(../img/oabg.png);
+    overflow: hidden;
+}
+.our_attornyes_text{
+    width: 33%;
+    float: left;
+    margin-top: 330px;
+}
+.our_attornyes_text h1{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.our_attornyes_text span{
+    width: 60px;
+    background: #f15628;
+    height: 5px;
+    display: block;
+    margin-bottom: 30px;
+}
+.our_attornyes_text p{
+    font-size: 14px;
+    color: #91a4ee;
+    margin: 30px 0 60px;
+    line-height: 1.6;
+}
+.see_more{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f15628;
+    text-transform: uppercase;
+}
+.attorneys_img{
+    width: 67%;
+    float: left;
+    margin: 215px 0 200px;
+}
+.attorneys_img div{}
+.attorneys_img div img{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+/*-----------------our_attornyes---------------------------*/
+
+
+/*----------------The Languages------------------------------*/
+.the_languages{
+    margin: 120px 0 0px;
+    height: 800px;
+}
+.the_language_text{}
+.middel_span{
+    width: 60px;
+    background: #f15628;
+    height: 5px;
+    margin: 0 47%;
+    display: block;
+}
+.the_language_text h1{
+    margin: 20px 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000da1;
+    font-weight: bold;
+    text-align: center;
+}
+.language_opction{}
+.option{
+    float: left;
+    width: 25%;
+}
+.option h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000da1;
+    margin-bottom: 30px;
+}
+.option p{
+    padding-right: 20px;
+    margin-bottom: 40px;
+    line-height: 1.4;
+    color: #adbbbe;
+}
+.option a{
+    text-decoration: none;
+    color: #FF621A;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*----------------The Languages------------------------------*/
+/*-------------------------------contact us==============*/
+.contact_us{
+    /* color: white; */
+    font-size:  36px;
+    background: #000CA1;
+    padding: 60px 0;
+    text-align: center;
+}
+.contact_us_text{
+}
+.contact_us_text h1{
+    color: white;
+    margin: 35px;
+    text-transform: uppercase;
+}
+.input{}
+.input input{
+    /* width: 50%; */
+    /* background: transparent; */
+}
+.btn{
+    width: 210px;
+    background: transparent;
+    height: 45px;
+    font-size: 14px;
+    margin: 50px 0 90px;
+    font-weight: bold;
+    color: white;
+    background: #FF621A;
+    text-transform: uppercase;
+}
+.meassage{
+    border-top: 0;
+    width: 50%;
+    background: transparent;
+    border-right: 0;
+    border-left: 0;
+    border-color: #2E3FDA;
+    padding: 10px 0;
+}
+.mail{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 50%;
+    background: transparent;
+    border-color: #2E3FDA;
+    padding: 10px 0;
+}
+.name{
+    border-top: 0;
+    border-right: 0;
+    width: 50%;
+    background: transparent;
+    border-left: 0;
+    border-color: #2E3FDA;
+    padding: 10px 0;
+}
+/*-------------------------------contact us==============*/
+
+/*------------------------footer----------------------------*/
+.footer{
+    padding: 40px 0;
+    background: #02072E;
+}
+.copyright{
+    width: 50%;
+    float: left;
+}
+.copyright p{
+    color: #4c5fd0;
+    font-size: 14px;
+}
+.social_link{width: 50%;display: inline;text-align: right;}
+.social_link ul{text-align: right;}
+.social_link ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social_link ul li a{
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
